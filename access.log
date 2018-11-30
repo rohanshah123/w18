@@ -54,3 +54,6 @@
 ::1 - - [30/Nov/2018:01:45:10 +0000] "GET / HTTP/1.1" 200 3615 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
 ::1 - - [30/Nov/2018:01:45:10 +0000] "GET /abc2.jpg HTTP/1.1" 200 16 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
 ::1 - - [30/Nov/2018:01:45:12 +0000] "GET /favicon.ico HTTP/1.1" 200 16 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+::1 - - [30/Nov/2018:01:49:21 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+::1 - - [30/Nov/2018:01:49:21 +0000] "GET /abc2.jpg HTTP/1.1" 304 - "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+::1 - - [30/Nov/2018:01:49:23 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
